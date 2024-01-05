@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Navbar } from './navbar';  // Asegúrate de tener la ruta correcta
+import { Navbar } from '../component/navbar';  // Asegúrate de tener la ruta correcta
 import { Componente } from './componente';  
 
 
