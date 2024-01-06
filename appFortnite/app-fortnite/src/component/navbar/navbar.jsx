@@ -1,20 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import './navbar.css';
+import fornite_logo from '../../../public/assets/Fornite_logo.png';
 
 const Navbar = () => {
-  const navbarStyles = {
-    backgroundColor: 'lightblue',
-    padding: '10px',
-    // Agrega otros estilos según sea necesario
-  };
-
+const logo = fornite_logo;
   return (
-    <nav style={navbarStyles}>
-      <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/productos">Productos</a></li>
-        <li><a href="/contacto">Contacto</a></li>
+    <nav className='navbar'>
+      <ul id='navbar_ul'>
+        <li><a href="/">Tienda</a></li>
+        <li><a href="/productos">Mapa</a></li>
+        <li><a href="/contacto">Miembros</a></li>
       </ul>
+      <img src={logo} alt="react" />
     </nav>
   );
 };

@@ -1,0 +1,39 @@
+/* ctrl + space para chequear opciones distintas */
+
+.navbar {
+
+background-color: rgba(0, 0, 0, 0.582);
+padding: 10px;
+
+}
+
+.navbar img{
+
+height: 15em;
+width: 25em;
+    
+}
+
+#navbar_ul{
+
+height: 200px;
+width: 700px;
+background-color: rgb(0, 0, 0);
+
+     display: flex;
+     align-items: center;
+     align-content: space-between;
+     justify-content: space-around;
+
+gap: 50px;
+list-style: none;
+
+}
+
+#navbar_ul li a{
+
+color: white;
+text-decoration: none;
+
+}
+
