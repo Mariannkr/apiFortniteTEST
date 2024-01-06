@@ -1,11 +1,14 @@
+/* eslint-disable no-unused-vars */
+import Navbar from '../component/navbar/navbar';
 import React from 'react';
-import Navbar from './component/navbar/navbar.jsx';
 
+const Shop = () => {
+  return (
+    <div>
+      <Navbar />
+      {/* Contenido de la tienda */}
+    </div>
+  );
+};
 
-const Navbar = () => {
-    return [
-      <Navbar/>
-    ];
-  };
-  
-  export default Navbar;
+export default Shop;

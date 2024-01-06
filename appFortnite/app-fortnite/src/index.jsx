@@ -1,12 +1,17 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Navbar } from '../template/shop.jsx';  // Asegúrate de tener la ruta correcta
+import { createRoot } from 'react-dom/client';
+import Shop from './template/shop';
 
+const Index = () => {
+  return (
+    <div>
+      <Shop />
+    </div>
+  );
+};
 
+export default Index;
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-      <Navbar/>
-  </React.StrictMode>
-)
-
+const root = createRoot(document.getElementById('root'));
+root.render(<Index />);
