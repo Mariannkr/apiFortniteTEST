@@ -3,6 +3,8 @@ import React from 'react';
 import './navbar.css';
 import fornite_logo from '../../../public/assets/Fornite_logo.png';
 
+{'Comillas simplse alt + 39'}
+
 const Navbar = () => {
 const logo = fornite_logo;
   return (
